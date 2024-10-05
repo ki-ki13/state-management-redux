@@ -47,7 +47,7 @@ const login = async (req, res) => {
 				expiresIn: 86400,
 			},
 		);
-		
+
 		const createdAt = new Date(Date.now());
 
 		res.cookie("advanced-state-management-user", token, {
